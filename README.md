@@ -12,6 +12,13 @@ boo [folder] [tag1] [tag2] ... [content]
 
 See https://boostnote.io/
 
+### confirm boo dependent command line tools
+
+- jq
+- uuidgen
+
+If you didn't have, install them.
+
 ### install boo
 
 - via fisher
@@ -36,4 +43,4 @@ set -x BOOSTNOTE_DATA_DIRECTORY ~/Documents/Boostnote # recommend it will be per
 boo Todo "My first memo by boo"
 ```
 
-- Previous command saves the note under `$BOOSTNOTE_DATA_DIRECTORY/notes`
+- The command saves the note under `$BOOSTNOTE_DATA_DIRECTORY/notes`
