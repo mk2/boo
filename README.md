@@ -1,5 +1,11 @@
 # boo (simple command tool for Boostnote)
 
+Create Boostnote note from command line.
+
+```
+boo [folder] [tag1] [tag2] ... [content]
+```
+
 ## How to use
 
 ### install Boostnote and setup
